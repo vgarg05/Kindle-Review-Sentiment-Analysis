@@ -3,7 +3,7 @@
 This project analyzes Kindle book reviews and classifies them as **Positive** or **Negative** using Natural Language Processing (NLP) and a Naive Bayes classifier. 
 The application includes a web interface built with Flask, allowing users to input reviews and instantly see the sentiment.
 
-🔗 **Live Demo:** [Click here to try it](https://your-demo-link.com)
+🔗 **Live Demo:** [Click here to try it](https://kindle-review-sentiment-analysis.onrender.com/)
 
 ---
 
