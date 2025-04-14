@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 import pickle
 import re
+import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -40,4 +41,5 @@ def predict():
     return render_template('index.html', review=review, sentiment=sentiment)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",port=1000,debug=True)
+    port = int(os.environ.get("PORT", 10000))  
+    app.run(host="0.0.0.0", port=port)
