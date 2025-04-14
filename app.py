@@ -40,4 +40,4 @@ def predict():
     return render_template('index.html', review=review, sentiment=sentiment)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=4070,debug=True)
