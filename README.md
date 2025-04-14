@@ -35,7 +35,7 @@ The application includes a web interface built with Flask, allowing users to inp
 - Jupyter Notebook (Model training and evaluation)
 
 ---
-
+```
 ## 📁 Folder Structure
 ├── models/
 │   └── nb_model_tfidf.pkl          # Pickled Naive Bayes model trained on TFIDF features
@@ -50,4 +50,4 @@ The application includes a web interface built with Flask, allowing users to inp
 ├── app.py                 # Flask backend for the web app 
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project overview
-
+```
